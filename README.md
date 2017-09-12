@@ -22,3 +22,48 @@ You can now confirm that the transfer was a success on the Ethereum blockchain b
 
 # Deploying Contracts
 
+The first step for deploying a contract is to write and compile a contract using the [Ethereum Remix Compiler](https://remix.ethereum.org/).
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-remix.png)
+
+Once your code is complete, you can gather the necessary inputs by clicking the contract details link as shown below.
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-contractdetails.png)
+
+We are interested in the bytecode and interface lines, which we will paste into the respective field on the ACES contract form.
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-contractdetails2.png)
+
+Once your form is filled out, it should look something like this:
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-formInput.png)
+
+When you are ready, submit your form. You will be taken to the listener status page.
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-listenerWaiting.png)
+
+The listener status page shows your the current status of the listener as well as provides instructions on what type of transaction needs to occur on the Ark blockchain for the listener to act. Send the provided Required Ark Amount to the Service Ark Address and include the SmartBridge Text. You may clip the copy buttons to grab these values. Your transaction in the ArkClient should appear similarly as follows:
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-ArkDesktop.png)
+
+Once your transaction is submitted, wait for one confirmation on the Ark blockchain and shortly afterwards you will see the listener service turn green with success.
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-listenerSuccess.png)
+
+Click on the Contract Transaction Hash View button to be taken to the ethereum blockchain explorer for the contract your just submitted.
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-ethexplorer.png)
+
+Click the 'Convert to ASCII' button underneath the input data and scroll down to the bottom to see the message!
+
+![](https://github.com/rrbest/aces-users-guide/blob/master/images/contract/contract-helloEthereumFromArk.png)
+
+
+
+
+
+
+
+
+
+
